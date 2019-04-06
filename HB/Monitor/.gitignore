@@ -1,0 +1,6 @@
+*.pyc
+config.py
+*.csv
+.DS_Store
+*.log
+*.json
