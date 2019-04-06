@@ -1,0 +1,40 @@
+2019-04-06 22:19:44 INFO web_tables.py starting up
+2019-04-06 22:19:44 INFO 
+
+Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+2019-04-06 22:19:46 INFO ID ALIAS MAPPER: 'peer_ids.json' successfully downloaded
+2019-04-06 22:19:51 INFO ID ALIAS MAPPER: 'subscriber_ids.json' successfully downloaded
+2019-04-06 22:19:51 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2019-04-06 22:19:53 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2019-04-06 22:20:07 INFO web_tables.py starting up
+2019-04-06 22:20:07 INFO 
+
+Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+2019-04-06 22:20:07 INFO ID ALIAS MAPPER: 'peer_ids.json' is current, not downloaded
+2019-04-06 22:20:07 INFO ID ALIAS MAPPER: 'subscriber_ids.json' is current, not downloaded
+2019-04-06 22:20:07 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2019-04-06 22:20:09 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2019-04-06 22:20:48 INFO web_tables.py starting up
+2019-04-06 22:20:48 INFO 
+
+Copyright (c) 2016, 2017, 2018, 2019
+	The Regents of the K0USY Group. All rights reserved.
+
+2019-04-06 22:20:50 INFO ID ALIAS MAPPER: 'peer_ids.json' successfully downloaded
+2019-04-06 22:20:55 INFO ID ALIAS MAPPER: 'subscriber_ids.json' successfully downloaded
+2019-04-06 22:20:55 INFO ID ALIAS MAPPER: peer_ids dictionary is available
+2019-04-06 22:20:57 INFO ID ALIAS MAPPER: subscriber_ids dictionary is available
+2019-04-06 22:20:58 INFO CLIENT TIMEOUT: List does not exist, skipping. If this message persists, contact the developer
+2019-04-06 22:20:58 INFO reportClient object for connecting to HBlink.py created at: <__main__.reportClientFactory instance at 0x7f816f0f4fc8>
+2019-04-06 22:20:58 INFO Initiating Connection to Server.
+2019-04-06 22:20:58 INFO Connected.
+2019-04-06 22:20:58 INFO Resetting reconnection delay
+2019-04-06 22:27:37 INFO static website requested: <Request at 0x7f816ed91098 method=GET uri=/ clientproto=HTTP/1.1>
+2019-04-06 22:27:38 INFO static website requested: <Request at 0x7f816eff3878 method=GET uri=/favicon.ico clientproto=HTTP/1.1>
+2019-04-06 22:27:38 INFO Client connecting: tcp4:127.0.0.1:36084
+2019-04-06 22:27:38 INFO WebSocket connection open.
+2019-04-06 22:27:38 INFO registered client tcp4:127.0.0.1:36084
