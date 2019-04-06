@@ -1,6 +1,28 @@
+#Open de commandline in Linux
+#Vul onderstaand commando in voor "unlock" van de Root
 sudo -s
+
+#login met je Root Password.
+#kopleer alle regels (mag in 1x) naar de commandline & druk op enter.
+#pak paar bakken koffie dit kan even duren.
+# is klaar als je een regel krijgt lijkend op root@<systeemnaam>
+
 apt-get update -y
 apt-get upgrade -y
 apt-get install -y python python-pip python-dev
 pip install -y --upgrade setuptools
 pip install -y bitstring bitarray twisted dmr_utils autobahn jinja2 config
+
+#sluit je console
+#Kopieer de map HB & LOGS naar een plekje op de computer.
+#Pas in de HB\Monitor\Config    je logging pad aan.
+
+
+#Open vervolgens  de 3x de console & open daarna deze files.
+python  <pad naar filelocatie>\HB\Server\HB_confbrigde.py
+python  <pad naar filelocatie>\HB\Server\HB_parrot.py
+python  <pad naar filelocatie>\HB\Monitor\web_tables.py
+
+#Tip wanneer je de console geopend hebt typ je in 
+Python
+Sleep vervolgens de bovenstaande file naar je commandline en verwijder de ' voor en achter het pad
