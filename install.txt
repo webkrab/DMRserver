@@ -1,0 +1,6 @@
+sudo -s
+apt-get update -y
+apt-get upgrade -y
+apt-get install -y python python-pip python-dev
+pip install -y --upgrade setuptools
+pip install -y bitstring bitarray twisted dmr_utils autobahn jinja2 config
