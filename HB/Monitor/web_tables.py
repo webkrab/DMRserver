@@ -121,19 +121,22 @@ def alias_call(_id, _dict):
 # Return friendly elpasted time from time in seconds.
 def since(_time):
     now = int(time())
-    _time = now - int(_time)
-    seconds = _time % 60
-    minutes = (_time/60) % 60
-    hours = (_time/60/60) % 24
-    days = (_time/60/60/24) 
-    if days:
-        return '{}d {}h'.format(days, hours)
-    elif hours:
-        return '{}h {}m'.format(hours, minutes)
-    elif minutes:
-        return '{}m {}s'.format(minutes, seconds)
-    else:
-        return '{}s'.format(seconds)
+    try:
+		_time = now - int(_time)
+		seconds = _time % 60
+		minutes = (_time/60) % 60
+		hours = (_time/60/60) % 24
+		days = (_time/60/60/24) 
+		if days:
+			return '{}d {}h'.format(days, hours)
+		elif hours:
+			return '{}h {}m'.format(hours, minutes)
+		elif minutes:
+			return '{}m {}s'.format(minutes, seconds)
+		else:
+			return '{}s'.format(seconds)
+	except:
+		return: 'never seen'
 
 
 def add_hb_peer(_peer_conf, _ctable_loc, _peer):
